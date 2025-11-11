@@ -1,7 +1,6 @@
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-# Токен бота - ВСТАВЬТЕ СЮДА ВАШ ТОКЕН
 TOKEN = "8572174254:AAE-hbc_ERXLQ1Og7o3t5fkIBwBPfNn-L-I"
 
 # Команда /start
@@ -45,4 +44,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
